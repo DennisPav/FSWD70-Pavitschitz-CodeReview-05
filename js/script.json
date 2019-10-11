@@ -1,0 +1,45 @@
+var movie = `[
+{
+	"id": "1",
+	"name" : "Aladdin",
+	"image" : "./image/alladin.jpeg",
+	"like" : "0",
+	"description" : "blabla"
+},{
+	"id": "2",
+	"name" : "Aristocats",
+	"image" : "./image/aristocats.jpeg",
+	"like" : "0",
+	"description" : "blabla"
+},{
+    "id": "3",
+	"name" : "Frozen",
+	"image" : "./image/Frozen.jpeg",
+	"like" : "0",
+	"description" : "blabla"
+},{
+	"id": "4",
+	"name" : "Mulan",
+	"image" : "./image/mulan.jpeg",
+	"like" : "0",
+	"description" : "blabla"
+},{
+	"id": "5",
+	"name" : "Pocahontas",
+	"image" : "./image/pocahontas.jpeg",
+	"like" : "0",
+	"description" : "blabla"
+},{
+	"id": "6",
+	"name" : "Tarzan",
+	"image" : "./image/Tarzan.jpeg",
+	"like" : "0",
+	"description" : "blabla"
+},{
+	"id": "7",
+	"name" : "Toy Story",
+	"image" : "./image/toystory.jpeg",
+	"like" : "0",
+	"description" : "blabla"
+}
+]`
