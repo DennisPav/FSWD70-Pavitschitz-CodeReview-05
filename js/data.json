@@ -4,49 +4,49 @@ var movie = `[
 	"name" : "Aladdin",
 	"image" : "image/alladin.jpg",
 	"like" : "0",
-    "likeThump" : "image/thumbs-up-solid-green.jpg",
+    "likeThump" : "image/thumbs-up-solid-green.png",
 	"description" : "blabla"
 },{
 	"id": "1",
 	"name" : "Aristocats",
 	"image" : "image/aristocats.jpg",
 	"like" : "0",
-"likeThump" : "image/thumbs-up-solid-green.jpg",
-	"description" : "blabla"
-},{
-    "id": "2",
-	"name" : "Frozen",
-	"image" : "image/Frozen.jpg",
-	"like" : "0",
-"likeThump" : "image/thumbs-up-solid-green.jpg",
+"likeThump" : "image/thumbs-up-solid-green.png",
 	"description" : "blabla"
 },{
 	"id": "3",
 	"name" : "Mulan",
 	"image" : "image/mulan.jpg",
 	"like" : "0",
-"likeThump" : "image/thumbs-up-solid-green.jpg",
+"likeThump" : "image/thumbs-up-solid-green.png",
 	"description" : "blabla"
 },{
 	"id": "4",
 	"name" : "Pocahontas",
 	"image" : "image/pocahontas.jpg",
 	"like" : "0",
-"likeThump" : "image/thumbs-up-solid-green.jpg",
+"likeThump" : "image/thumbs-up-solid-green.png",
+	"description" : "blabla"
+},{
+    "id": "2",
+	"name" : "Frozen",
+	"image" : "image/Frozen.jpg",
+	"like" : "0",
+"likeThump" : "image/thumbs-up-solid-green.png",
 	"description" : "blabla"
 },{
 	"id": "5",
 	"name" : "Tarzan",
 	"image" : "image/Tarzan.jpg",
 	"like" : "0",
-"likeThump" : "image/thumbs-up-solid-green.jpg",
+"likeThump" : "image/thumbs-up-solid-green.png",
 	"description" : "blabla"
 },{
 	"id": "6",
 	"name" : "Toy Story",
 	"image" : "image/toystory.jpg",
 	"like" : "0",
-"likeThump" : "image/thumbs-up-solid-green.jpg",
+"likeThump" : "image/thumbs-up-solid-green.png",
 	"description" : "blabla"
 }
 ]`
