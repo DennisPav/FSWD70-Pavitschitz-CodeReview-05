@@ -12,6 +12,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tinysort/3.2.5/jquery.tinysort.min.js"></script>
 
 </head>
 
@@ -27,7 +28,7 @@
         <!------------------------------------------Navbar start---------------------------------------------------->
         <div class="row bg-dark py-3">
             <div class="col-sm-12">
-                <p class="h4"><a href="#" class="text-light">Home</a></p>
+                <p class="h4 pl-5"><a href="#" class="text-light">Home</a></p>
             </div>
         </div>
         <!------------------------------------------Navbar end---------------------------------------------------->
@@ -35,94 +36,17 @@
         <div class="container">
             <div class="row pt-3">
                 <div class="col-sm-7 justify-content-right">
-                    <p class="h2 text-right pr-4 text-light">Movies</p>
+                    <p class="h2 text-right pr-5 text-light">Movies</p>
                 </div>
                 <div class="col-sm-1 offset-4">
-                    <p class="h6 pt-1 text-right text-light">Sort</p>
+                    <p class="h6 pt-1 text-right text-light"><button type="button" class="btn-dark bg-success" id="sort">Sort</button></p>
                 </div>
             </div>
-            <!------------------------------------------Movie row1 start---------------------------------------------------->
-            <div class="row justify-content-around">
-                <div class="col-sm-5 py-2">
-                    <div class="row movie-container">
-                        
-                    </div>
-                </div>
-                <div class="col-sm-5 py-2">
-                    <div class="row movie-container">
-                        <div class="col-sm-5">
-                            <img src="./image/alladin.jpg" alt="">
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="text-light">blablablabla</p>
-                            <p class="text-light">blablablabla</p>
-                            <br>
-                            <p class="text-light">like</p>
-                        </div>
-                    </div>
-                </div>
+            <!------------------------------------------Movie row1 js build start---------------------------------------------------->
+            <div class="row justify-content-around pt-5" id="movieRow">
+                
             </div>
             <!------------------------------------------Movie row1 end---------------------------------------------------->
-            <!------------------------------------------Movie row2 start---------------------------------------------------->
-            <div class="row justify-content-around">
-                <div class="col-sm-5 py-2">
-                    <div class="row movie-container">
-                        <div class="col-sm-5">
-                            <img src="./image/alladin.jpg" alt="">
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="text-light">blablablabla</p>
-                            <p class="text-light">blablablabla</p>
-                            <br>
-                            <p class="text-light">like</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5 py-2">
-                    <div class="row movie-container">
-                        <div class="col-sm-5">
-                            <img src="./image/alladin.jpg" alt="">
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="text-light">blablablabla</p>
-                            <p class="text-light">blablablabla</p>
-                            <br>
-                            <p class="text-light">like</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!------------------------------------------Movie row2 end---------------------------------------------------->
-            <!------------------------------------------Movie row3 start---------------------------------------------------->
-            <div class="row justify-content-around">
-                <div class="col-sm-5 py-2">
-                    <div class="row movie-container">
-                        <div class="col-sm-5">
-                            <img src="./image/alladin.jpg" alt="">
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="text-light">blablablabla</p>
-                            <p class="text-light">blablablabla</p>
-                            <br>
-                            <p class="text-light">like</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5 py-2">
-                    <div class="row movie-container">
-                        <div class="col-sm-5">
-                            <img src="./image/alladin.jpg" alt="">
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="text-light">blablablabla</p>
-                            <p class="text-light">blablablabla</p>
-                            <p class="text-light text-right text-success">like <img src="image/thumbs-up-solid-green.jpg" class="thumpUp" alt="thumpUp">
-                                <button class="btn  btn-success circle-button" type="button">0</button></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!------------------------------------------Movie row3 end---------------------------------------------------->
             <!------------------------------------------Footer start---------------------------------------------------->
             <div class="row py-4 " id="footer">
                 <div class="col-sm-12">
@@ -130,11 +54,12 @@
                 </div>
 
             </div>
+            <!------------------------------------------Footer end---------------------------------------------------->
         </div>
-        <!------------------------------------------Footer end---------------------------------------------------->
+        
     </div>
-    <script type="text/javascript" src="js/script.json"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/data.json"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
