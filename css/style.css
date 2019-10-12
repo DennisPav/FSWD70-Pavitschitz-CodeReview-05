@@ -6,14 +6,26 @@
     background-color: #171E24;
     
 }
-img{
-    width: 100px;
-    height:140px;
-}
+
 .movie-container{
     background-color: #111;
     
 }
+.btn.circle-button {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  font-size: 20px;
+  
+}
+img{
+    width: 100px;
+    height:140px;
+}
 #footer{
     margin-top: 100px;
+}
+.thump{
+    height:30px;
+    width:30px;    
 }
